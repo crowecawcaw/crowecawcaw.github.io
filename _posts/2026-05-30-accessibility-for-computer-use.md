@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing xa11y - cross-platform desktop automation through accessibility APIs"
+title: "Cross-platform desktop automation through accessibility APIs"
 date: 2026-05-30 14:00:00 +0000
 categories: general
 ---
