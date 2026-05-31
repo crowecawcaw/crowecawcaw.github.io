@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+<h2>{{ .Title }}</h2>
+<p><time>{{ .Date.Format "2006-01-02" }}</time></p>
+{{ end }}
+{{ .Content }}
+{{ end }}

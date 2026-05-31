@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Cross-platform desktop automation through accessibility APIs"
-date: 2026-05-30 14:00:00 +0000
-categories: general
+date: 2026-05-30T14:00:00+00:00
+slug: accessibility-for-computer-use
 ---
 
 

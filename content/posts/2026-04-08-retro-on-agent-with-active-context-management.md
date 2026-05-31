@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Retro on agent with active context management"
-date: 2026-04-08 14:00:00 +0000
-categories: general
+date: 2026-04-08T14:00:00+00:00
 ---
 
 I created a coding agent a year ago to experiment with the idea of active context management. At the time, agents had limited context that filled quickly and cost increasing amounts of money to maintain. My main idea was letting the agent prune and compact its context over time to keep just the necessary info around. In theory, with a leaner focused context, we'd pay less for input tokens and the model could maintain focus for longer periods of time.

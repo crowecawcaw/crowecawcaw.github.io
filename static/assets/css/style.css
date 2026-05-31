@@ -176,14 +176,48 @@ ul.blog-posts li a:visited {
   color: var(--visited-color);
 }
 
-header nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+ul.projects {
+  list-style-type: none;
+  padding: unset;
 }
 
-header nav a:last-child {
-  margin-right: 0;
+ul.projects li {
+  display: flex;
+}
+
+ul.projects li a {
+  flex: 0 0 160px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.github-link:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.github-link:visited {
+  color: var(--text-color);
+}
+
+.projects-section {
+  margin-top: 2em;
+}
+
+.projects-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 time {

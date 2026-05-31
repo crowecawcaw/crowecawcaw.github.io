@@ -1,0 +1,48 @@
+{{ define "main" }}
+<ul class="blog-posts">
+  {{ range (where site.RegularPages "Section" "posts") }}
+  <li>
+    <span>{{ .Date.Format "2006-01-02" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+<section class="projects-section">
+  <h2>Projects</h2>
+  <ul class="projects">
+    <li>
+      <a href="https://taxwrangle.com">taxwrangle.com</a>
+      <span>free tool for building data-backed tax appeal cases for houston property taxes</span>
+    </li>
+    <li>
+      <a href="https://xa11y.dev">xa11y</a>
+      <span>cross-platform library for desktop accessibility apis</span>
+    </li>
+    <li>
+      <a href="https://agent-desktop.dev">agent-desktop</a>
+      <span>cli tool equipping agents to operate desktop environments</span>
+    </li>
+    <li>
+      <a href="https://pulp.dev">pulp.dev</a>
+      <span>weekly, ai-generated newsletters based on github projects you follow</span>
+    </li>
+    <li>
+      <a href="https://github.com/crowecawcaw/aws-docs-history">aws-docs-history</a>
+      <span>a weekly scrape of the aws docs saved in markdown</span>
+    </li>
+    <li>
+      <a href="https://github.com/crowecawcaw/click-mcp">click-mcp</a>
+      <span>python library for turning click cli tools into mcp servers with minimal effort</span>
+    </li>
+    <li>
+      <a href="https://github.com/crowecawcaw/agent">agent</a>
+      <span>a poc ai agent to test new strategies for agent context management</span>
+    </li>
+    <li>
+      <a href="https://crowecawcaw.github.io/aws-ping-test/">aws ping test</a>
+      <span>interactive tool displaying latency to each AWS region</span>
+    </li>
+  </ul>
+</section>
+{{ end }}

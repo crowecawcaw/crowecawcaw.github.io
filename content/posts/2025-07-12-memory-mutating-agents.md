@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Stateless LLMs and memory-mutating agents"
-date: 2025-07-12 14:00:00 +0000
-categories: general
+date: 2025-07-12T14:00:00+00:00
+slug: memory-mutating-agents
 ---
 
 I was trying to figure out how large language model (LLM) providers were able to keep so many parallel conversations alive from all the different callers when I realized something that may be obvious to many but I hadn't seen explicitly stated: large language models (LLMs) are stateless. 

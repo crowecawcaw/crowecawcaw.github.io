@@ -1,0 +1,24 @@
+baseURL = "https://crowecawcaw.github.io/"
+defaultContentLanguage = "en"
+title = "crowecawcaw blog"
+uglyURLs = true
+
+[params]
+  description = "Simple blog"
+
+[permalinks]
+  posts = "/general/:year/:month/:day/:slug"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ["html", "rss"]
+  section = ["html", "rss"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "feed"
